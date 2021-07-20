@@ -1,0 +1,170 @@
+
+
+body {
+    background: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    margin: 0;
+}
+
+*,*:before,*:after{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.foto-principal{
+    width:200px;
+
+    border: 2px solid #FFFFFF; 
+    border-radius: 10px;
+    margin: 30px 30px 0 30px;
+    padding: 5px;
+}
+
+h1{
+    margin-top:10px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}
+h2{
+    margin: 0 0 auto;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p{
+    margin-top: 0px;
+    line-height: 25px;
+}
+
+.social-links{
+    text-decoration: none;
+}
+.social-icons{
+    width: 20px;
+}
+.instagram{
+    margin: 0 10px 0 10px;
+}
+
+.linkedin{
+    margin: 0 10px 0 0;
+}
+
+.github{
+    margin: 0 10px 0 0;
+}
+
+.schoolList{
+    list-style:none;
+    padding-left: 20px;
+}
+.jobsList{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.footer{
+    border-top: 2px solid #47474741;
+    margin: 25px auto 5px;
+    text-align: center;
+}
+
+/* responsivo mobile first */
+
+@media screen and (max-width: 923px){
+    .container{
+        padding: 0 2.4em 0 2.4em;
+    }
+    .footer{
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .container{
+        width: 100%;
+        padding: 0 2.4em 0 2.4em;
+    }
+    .footer{
+        width: 100%;
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .container{
+        width: 100%;
+        padding: 0 2.4em 0 2.4em;
+    }
+    .footer{
+        width: 100%;
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .container{
+        font-size: 1.2em;
+        width: 100%;
+        padding: 0 2.4em 0 2.4em;
+    }
+    .footer{
+        font-size: 1.0em;
+        width: 100%;
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+
+@media screen and (max-width: 620px){
+    .container{
+        width: 100%;
+        margin-right: 0;
+        padding: 0 2.4em 0 2.4em;
+    }
+    .footer{
+        width: 100%;
+        margin-right: 0;
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
