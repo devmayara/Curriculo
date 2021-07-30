@@ -1,3 +1,4 @@
+@charset "UTF-8"
 
 body {
     background: #dfdfdf;
@@ -85,8 +86,8 @@ p {
     display: inline-block;
     background-color: #0000008a;
     color: #e7e4e4;
-    padding: 1rem 2rem;
-    border-radius: 5rem;
+    padding: 16px 32px;
+    border-radius: 80px;
     border: none;
     transition: .3s;
 }
