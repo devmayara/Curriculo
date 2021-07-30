@@ -83,6 +83,7 @@ p {
 }
 
 .button {
+    margin-top: 50px;
     display: inline-block;
     background-color: #0000008a;
     color: #e7e4e4;
