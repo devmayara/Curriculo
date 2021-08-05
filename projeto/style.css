@@ -82,6 +82,10 @@ p {
     text-align: center;
 }
 
+.download > a {
+    text-decoration: none;
+}
+
 .button {
     margin-top: 50px;
     display: inline-block;
