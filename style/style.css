@@ -57,11 +57,12 @@ h3 {
 p {
     line-height: 25px;
     margin-top: 30px;
+    text-indent: 30px;
 }
 
 ul {
-    padding-left: 20px;
     margin-top: 15px;
+    list-style-position: inside;
 }
 
 .social-links {
